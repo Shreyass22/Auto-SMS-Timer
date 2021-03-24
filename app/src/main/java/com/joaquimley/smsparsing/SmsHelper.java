@@ -8,7 +8,7 @@ import android.telephony.SmsManager;
 
 public class SmsHelper {
 
-    public static final String SMS_CONDITION = "OOOMMMAAAA GOOOOOOOOO HO GAYA WITH TIMER BROOOOOO";
+    public static final String SMS_CONDITION = "You're registered in our Driving School";
 
     public static boolean isValidPhoneNumber(String phoneNumber) {
         return android.util.Patterns.PHONE.matcher(phoneNumber).matches();
